@@ -6,11 +6,12 @@
 
 // How do we assign a value to a variable?
     let variable = 10;
-    console.log(variable);
+    console.log(`The variable is: ${variable}`);
 
+    
 // How do we change the value of a variable?
         variable = 20;
-        console.log(variable);
+        console.log(`The variable is: ${variable}`);
 
 // How do we assign an existing variable to a new variable?
     //    let newVariable = variable;
@@ -31,6 +32,7 @@
 // What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
    //65% of your time thinking about how to solve a problem and 35% of your time typing in code to implement the solution;
 
+   console.log("---------------------------------------------------------------------------------------------------------------");
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------   
 
 //  B. Strings  
@@ -40,7 +42,7 @@
 
 // Assign it the value of the string "Hello World"
     firstVariable ="Hello World";
-    console.log(firstVariable);
+    console.log(`The String is: ${firstVariable}`);
 
 // Change the value of this variable to some number
     firstVariable = 30;
@@ -63,6 +65,7 @@
      let yourName= "Supriya";
      let greeting="Hello, my name is " + yourName;
      console.log(greeting);
+     console.log("---------------------------------------------------------------------------------------------------------------");
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------        
 
@@ -84,6 +87,7 @@
   console.log(a < b && b < c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
   console.log(a * a == d);  // note: the answer is a simple arithmetic equation, not something "weird"
   console.log(48 == '48');
+  console.log("---------------------------------------------------------------------------------------------------------------");
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------        
 
@@ -101,6 +105,7 @@
 
             console.log("Hey! You're not a cow.");
            }
+           console.log("---------------------------------------------------------------------------------------------------------------");
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------        
 
@@ -117,6 +122,7 @@
     {
         console.log("Sorry, you're too young.");
     }
+    console.log("---------------------------------------------------------------------------------------------------------------");
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -141,6 +147,7 @@
    {
       console.log(i);
    }
+   console.log("---------------------------------------------------------------------------------------------------------------");
 
 //---------------------------------------------------------------------------------------
 
@@ -158,6 +165,7 @@
         console.log(i);
        }
     }
+    console.log("---------------------------------------------------------------------------------------------------------------");
 
 //---------------------------------------------------------------------------------------
 
@@ -176,6 +184,7 @@
             console.log("I found a " + i + "." + " Three is a crowd");
         }
      }
+     console.log("---------------------------------------------------------------------------------------------------------------");
 //Add to the code from above to print out "I found a number. Three is a crowd" if the number is a multiple of three
 //For numbers divisible by both three and five, be sure your code prints both messages    
 
@@ -202,6 +211,7 @@
    }
 // Check your work! Your bank_account should have $10,100 in it.   
  console.log(`Your bank_account = $ ${bonus}`);
+ console.log("---------------------------------------------------------------------------------------------------------------");
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -223,6 +233,7 @@
 //Create an array that contains three quotes and store it in a variable called quotes
   let quates = ["cat", "dog", "tiger"];
   console.log(quates);
+  console.log("---------------------------------------------------------------------------------------------------------------");
 
 //--------------------------------------------------------------------------------------  
 //  C. Accessing elements
@@ -237,7 +248,8 @@
    randomThings[2]= "world"
 
 // Check the value of the array to make sure it updated the array. How? Why, yes! console.log();   
-   console.log(randomThings); 
+   console.log(randomThings);
+   console.log("---------------------------------------------------------------------------------------------------------------"); 
 
 //------------------------------------------------------------------------------------------------------------------   
 
@@ -257,6 +269,7 @@
 // Add a new element, "Cloud City" to the array
     ourClass.push("Cloud City");
     console.log(ourClass);
+    console.log("---------------------------------------------------------------------------------------------------------------");
 
 //----------------------------------------------------------------------------------------------------------    
 // E. Mix It Up
@@ -289,6 +302,7 @@
 //Did the .reverse()method return anything?
     myArray.reverse();
     console.log(myArray);
+    console.log("---------------------------------------------------------------------------------------------------------------");
 
 //-------------------------------------------------------------------------------------------------------------------------------
 
@@ -307,6 +321,7 @@
             {
            console.log("Big number");
             }
+            console.log("---------------------------------------------------------------------------------------------------------------");
 
 //-------------------------------------------------------------------------------------------------------------
 // G. Monkey in the Middle
@@ -322,6 +337,7 @@
    } else {
     console.log("Moncky"); // Otherwise, log "monkey".
    }
+   console.log("---------------------------------------------------------------------------------------------------------------");
 
 //----------------------------------------------------------------------------------------------------------------------------
 
@@ -382,6 +398,7 @@ const kristynsCloset = [
 // Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
    thomsCloset[1][2]="Footie pajamas";
    console.log(thomsCloset);
+   console.log("---------------------------------------------------------------------------------------------------------------");
  
 //-----------------------------------------------------------------------------------------------------------------------------
 
@@ -394,6 +411,7 @@ const kristynsCloset = [
        console.log(`Hello ${name}` );
     }
     printGreeting("Supriya");
+    console.log("---------------------------------------------------------------------------------------------------------------");
 
 //--------------------------------------------------------------------------------------------------------------------------
 
@@ -404,6 +422,7 @@ const kristynsCloset = [
         console.log(`${name} is cool` );
     }
     printCool("Robbin");
+    console.log("---------------------------------------------------------------------------------------------------------------");
 
 //--------------------------------------------------------------------------------------------------------------------------
 //  C. calculateCube
@@ -417,6 +436,7 @@ const kristynsCloset = [
      console.log(`The volume of the cube is ${num} is: ${volume}`);
      }
      calculateCube(5);
+     console.log("---------------------------------------------------------------------------------------------------------------");
 
 //--------------------------------------------------------------------------------------------------------------------------
 // D. isVowel
@@ -442,6 +462,7 @@ const kristynsCloset = [
      console.log(isVowel('U'));
      console.log(isVowel('u'));
      console.log(isVowel('c'));
+     console.log("---------------------------------------------------------------------------------------------------------------");
 
 //--------------------------------------------------------------------------------------------------------------------------
 
@@ -453,6 +474,7 @@ const kristynsCloset = [
        console.log(string1.length, string2.length);
     }
     getTwoLengths("hi", "Bhor");
+    console.log("---------------------------------------------------------------------------------------------------------------");
 
 //--------------------------------------------------------------------------------------------------------------------------
 
@@ -465,6 +487,7 @@ const kristynsCloset = [
 
       } 
       getMultipleLengths(["hi","hello","world"]);
+      console.log("---------------------------------------------------------------------------------------------------------------");
 
 //--------------------------------------------------------------------------------------------------------------------------
 
@@ -488,6 +511,7 @@ const kristynsCloset = [
         }
       }
       maxOfThree(5,10,2);
+      console.log("---------------------------------------------------------------------------------------------------------------");
 //--------------------------------------------------------------------------------------------------------------------------
 
 //    H. printLongestWord
@@ -506,6 +530,7 @@ const kristynsCloset = [
         return longestWord;
       }
       printLongestWord(["cat", "kitten", "hourses"]); 
+      console.log("---------------------------------------------------------------------------------------------------------------");
 
 //--------------------------------------------------------------------------------------------------------------------------
 // ---------------------Objects
@@ -525,6 +550,7 @@ const kristynsCloset = [
     user.purchased.push("Ipad", "car"); 
     console.log(user.purchased);  
     console.log(user);
+    console.log("---------------------------------------------------------------------------------------------------------------");
 
 //--------------------------------------------------------------------------------------------------------------------------
 
@@ -537,6 +563,8 @@ const kristynsCloset = [
 // Our user has had a birthday! Without changing the original userobject, increment the agevalue using the postfix operator. Hint: age++
         const updateUser1 = {...user, age: user.age++ }
         console.log(updateUser1);
+        
+        console.log("---------------------------------------------------------------------------------------------------------------");
 
 //--------------------------------------------------------------------------------------------------------------------------
 
@@ -546,6 +574,7 @@ const kristynsCloset = [
 // Without changing the original userobject, add a new key locationto the object, and give it a value or some-or-other location (a string).
       const updateUser2= {...user, location: "Moorsville,NC"}
       console.log(updateUser2);
+      console.log("---------------------------------------------------------------------------------------------------------------");
 //--------------------------------------------------------------------------------------------------------------------------
 
 // D. Shopaholic!
@@ -564,6 +593,7 @@ const kristynsCloset = [
 
 // Console.log just the "Merino jodhpurs" from the purchasedarray. 
          console.log(user.purchased[2]); 
+         console.log("---------------------------------------------------------------------------------------------------------------");
 //--------------------------------------------------------------------------------------------------------------------------
 
 //  E. Object-within-object
@@ -600,6 +630,7 @@ const kristynsCloset = [
 
 // Console.log just "A latte" from the friend's purchased.
     console.log(userObject.friend.purchasedArr[1]);
+    console.log("---------------------------------------------------------------------------------------------------------------");
 
 //--------------------------------------------------------------------------------------------------------------------------
 
@@ -621,6 +652,7 @@ const kristynsCloset = [
    {
     console.log(userObject.friend.purchasedArr[i]);
    }
+   console.log("---------------------------------------------------------------------------------------------------------------");
 //--------------------------------------------------------------------------------------------------------------------------
 
 // G. Functions can operate on objects
@@ -655,7 +687,7 @@ const kristynsCloset = [
     oldAndLoud(user);
 
     console.log(user);
-
+    console.log("---------------------------------------------------------------------------------------------------------------");
 //--------------------------------------------------------------------------------------------------------------------------
 //  Cat Combinator
 
@@ -675,7 +707,7 @@ const kristynsCloset = [
 // console.log the cat's breed
         console.log(cat1.age);   
         console.log(cat1.breed); 
-
+        console.log("---------------------------------------------------------------------------------------------------------------");
 
 //--------------------------------------------------------------------------------------------------------------------------
 
@@ -693,7 +725,7 @@ const kristynsCloset = [
         console.log(cat2.name);  
         console.log(cat2.breed); 
         console.log(cat2.age);   
-
+console.log("---------------------------------------------------------------------------------------------------------------");
 //--------------------------------------------------------------------------------------------------------------------------
 
 //  Combine Cats!
@@ -701,25 +733,49 @@ const kristynsCloset = [
 
 // Write a function combineCats that has two parameters mama, and papa. The function will take two arguments -- each a cat object.
     // function combineCats(mama, papa) 
-    // {
+    // {   
+    //     let mama= cat1;
+    //     let papa= cat2;
     //     console.log("Mama Cat:", mama);
     //     console.log("Papa Cat:", papa);
     // }
+
+    // console.log(combineCats(mama, papa));
     function combineCats(mama, papa)
      {
-      
+
         return {
           name: mama.name + papa.name, 
           age: 1,                    
           breed: mama.breed + "-" + papa.breed 
-             };
+       };
       }
 
 
-// Pass cat1and cat2as arguments to the combineCatsfunction. The function should console.log them.
-   
-     console.log(combineCats(cat1, cat2));
+ // Pass cat1and cat2as arguments to the combineCatsfunction. The function should console.log them.
+   // const combinedCat = combineCats(cat1, cat2);
+    console.log(combineCats(cat1, cat2));
+    console.log("---------------------------------------------------------------------------------------------------------------");        
 //--------------------------------------------------------------------------------------------------------------------------
+
+// 4. Cat brain bender
+// If combineCatsreturns an object, and if combineCatstakes objects as arguments, then it stands to reason that:
+
+// catCombinatorcan use itself as its own argument.
+
+// Take a second to stew on that . . .
+
+// What is the result of:
+
+console.log(combineCats(combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2)),(combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2)))));
+
+// console.log(combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2)));
+// Whoa . . .
+
+// The above console.log is two levels deep of combineCats.
+
+// Write a console.log that is three levels deep of combineCats. combineCats should have two arguments, each which are combineCats, each which have two arguments, each which are combineCats.
+// Your output should look something like:
 
 
 
